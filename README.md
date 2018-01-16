@@ -1,4 +1,4 @@
-# trello_card_number
+# Trello Card Number
 Firefox extension for adding card number on Trello boards
 
 
