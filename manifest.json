@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Trello Card Number",
+  "version": "1.0",
+  "description": "Shows card number for Trello",
+  "icons": {
+    "48": "icons/trello-48.png",
+    "96": "icons/trello-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://trello.com/b/*"
+      ],
+      "js": [
+        "trello_card_num.js"
+      ]
+    }
+  ]
+}
